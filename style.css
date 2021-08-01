@@ -1,0 +1,80 @@
+
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.box{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.head{
+    background-image: url(images/header-bg.png);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+  
+}
+.halfWidth{
+    width: 40%;
+    float: left;
+}
+.halfWidth img{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.textBox{
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.colorName h1{
+    color:rgb(230, 16, 101);
+    font-weight: 800;
+        
+}
+.text{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.link{
+    text-decoration: none;
+    background-color: rgb(230, 16, 101);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: seashell;
+}
+.bio{
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.work{
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.work h1{
+    text-align: center;
+    padding: 100px;
+}
+.image{
+    padding: 20px 200px ;
+}
+.image img{
+    float: left;
+    height: 250px;
+    padding: 10px;
+}
+.footer{
+    padding-top: 200px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.footer h1,h4,h5,h6{
+    text-align: center;
+}
